@@ -114,4 +114,26 @@ public:
         }
     }
 
+    void retraverse (){
+        if (START == NULL){
+            cout << "\nList is Empty"<<endl;
+            return;
+        }
+
+        Node *currentNode = START;
+        int i = 0;
+        while (currentNode->next != NULL){
+            currentNode = currentNode->next;
+            i++;
+        }
+        cout << "\nRecords in descrnding order of roll number are: \n";
+        while (currentNode != NULL){
+            cout << i +1 << ". "<< currentNode->noMhs<< " "<<endl;
+            currentNode = currentNode->prev;
+            i--;
+        }
+    }
+
+    
+
 };
