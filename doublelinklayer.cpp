@@ -96,4 +96,13 @@ public:
         cout << "Record with roll number "<< rollNo<< "deleted"<<endl;
     }
 
+    void traverse(){
+        if (START == NULL){
+            cout << "\nList Empty"<< endl;
+            return;
+        }
+
+        Node *currentNode = START;
+    }
+
 };
