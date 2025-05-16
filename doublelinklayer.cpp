@@ -62,4 +62,11 @@ public:
     current->next = newNode;
     }
 
+    void hapus(){
+        if (START == NULL){
+            cout << "\nList id Empty"<< endl;
+            return;
+        }
+    }
+
 };
