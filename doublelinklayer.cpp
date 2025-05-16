@@ -21,5 +21,7 @@ public:
         int nim;
         cout << "\nEnter the roll number of the Student: ";
         cin >> nim;
+
+        Node *newNode = new Node();
     }
 };
