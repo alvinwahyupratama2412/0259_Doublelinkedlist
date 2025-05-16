@@ -67,6 +67,13 @@ public:
             cout << "\nList id Empty"<< endl;
             return;
         }
+        cout << "\nEnter the roll number of the student whose is to be deleted: ";
+        int rollNo;
+        cin>> rollNo;
+
+        Node *current = START;
+        
+        
     }
 
 };
