@@ -16,4 +16,10 @@ public:
     DoubleLinkedList() {
         START = NULL;
     }
+
+    void addNode(){
+        int nim;
+        cout << "\nEnter the roll number of the Student: ";
+        cin >> nim;
+    }
 };
